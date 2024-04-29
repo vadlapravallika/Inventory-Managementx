@@ -1,0 +1,28 @@
+{
+  "name": "inventorymanagamentx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.6",
+    "body-parser": "^1.20.2",
+    "debug": "~4.3.4",
+    "dotenv": "^16.4.5",
+    "http-errors": "~2.0.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.2",
+    "passport": "^0.7.0",
+    "passport-google-oidc": "^0.1.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
